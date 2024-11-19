@@ -120,6 +120,6 @@ This repository is licensed under the MIT License. See the [LICENSE](./LICENSE) 
 
 ### 🧑‍💻 Author
 
-Created by [Your Name](https://github.com/yourusername). Feel free to reach out for collaboration or questions!
+Created by [Your Name](https://github.com/denisCabrera). Feel free to reach out for collaboration or questions!
 
 ---
