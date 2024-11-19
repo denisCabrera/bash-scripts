@@ -2,11 +2,12 @@
 
 # Bash Scripts Collection
 
-A collection of useful Bash scripts for automation, system administration, and general productivity. These scripts are designed to make common tasks simpler and faster. Feel free to explore, use, and modify them for your needs.
+A collection of useful Bash scripts for automation, system administration, and general productivity. These scripts are designed to simplify repetitive tasks and optimize workflows. Feel free to explore, use, and modify them to suit your needs.
 
 ---
 
 ## 📋 Table of Contents
+
 1. [Introduction](#introduction)
 2. [Features](#features)
 3. [Usage](#usage)
@@ -19,14 +20,15 @@ A collection of useful Bash scripts for automation, system administration, and g
 
 ## 🛠️ Introduction
 
-This repository contains a variety of Bash scripts to automate repetitive tasks, manage systems efficiently, and perform other useful operations. The scripts are well-documented and written to ensure ease of use.
+This repository contains a variety of Bash scripts to automate tasks, monitor systems, and perform other useful operations. Each script is stored in its own file, ensuring modularity and ease of use.
 
 ---
 
 ## ✨ Features
+
 - Easy-to-use scripts for common automation tasks.
-- Modular and reusable code structure.
-- Extensive documentation within each script.
+- Modular and reusable design.
+- Well-documented for clarity and customization.
 - Designed for Unix/Linux systems.
 
 ---
@@ -39,7 +41,7 @@ This repository contains a variety of Bash scripts to automate repetitive tasks,
    cd bash-scripts
    ```
 
-2. Make the script executable:
+2. Make a script executable:
    ```bash
    chmod +x script_name.sh
    ```
@@ -49,7 +51,7 @@ This repository contains a variety of Bash scripts to automate repetitive tasks,
    ./script_name.sh
    ```
 
-4. (Optional) Add the script to your PATH for global usage:
+4. (Optional) Add the script to your PATH for global use:
    ```bash
    sudo cp script_name.sh /usr/local/bin/
    ```
@@ -58,13 +60,18 @@ This repository contains a variety of Bash scripts to automate repetitive tasks,
 
 ## 🗂️ Scripts Included
 
-| Script Name        | Description                                   | Usage Example                         |
-|--------------------|-----------------------------------------------|---------------------------------------|
-| `backup.sh`        | Automates file and directory backups.         | `./backup.sh /source /destination`   |
-| `cleanup.sh`       | Removes temporary and unused files.           | `./cleanup.sh`                       |
-| `monitor.sh`       | Monitors system resources like CPU, RAM, etc. | `./monitor.sh`                       |
-| `network-check.sh` | Checks network connectivity and speeds.       | `./network-check.sh google.com`      |
-| `deploy.sh`        | Automates app deployments.                    | `./deploy.sh myapp`                  |
+| Script Name                  | Description                                                                                              | Link                                           |
+|------------------------------|----------------------------------------------------------------------------------------------------------|------------------------------------------------|
+| **Backup Script**            | Automates file and directory backups.                                                                   | [backup.sh](./backup.sh)                      |
+| **Cleanup Script**           | Cleans up temporary and unused files to free up disk space.                                             | [cleanup.sh](./cleanup.sh)                    |
+| **System Monitor Script**    | Monitors system resources like CPU, RAM, and disk usage in real-time.                                   | [monitor.sh](./monitor.sh)                    |
+| **Network Check Script**     | Tests network connectivity and speed, and provides detailed results.                                    | [network-check.sh](./network-check.sh)        |
+| **Deploy Script**            | Automates application deployment, including pulling updates from Git and restarting services.           | [deploy.sh](./deploy.sh)                      |
+| **Log Analyzer Script**      | Analyzes log files and summarizes critical errors for debugging.                                         | [log-analyzer.sh](./log-analyzer.sh)          |
+| **Task Runner Script**       | Executes multiple tasks sequentially with error reporting.                                              | [task-runner.sh](./task-runner.sh)            |
+| **User Management Script**   | Simplifies adding and removing users on Linux systems.                                                  | [user-management.sh](./user-management.sh)    |
+| **Disk Usage Report Script** | Generates detailed disk usage reports to identify large files or directories.                           | [disk-usage-report.sh](./disk-usage-report.sh)|
+| **System Health Check Script** | Performs a comprehensive system health check, including hardware and software diagnostics.             | [system-health-check.sh](./system-health-check.sh)|
 
 ---
 
@@ -80,15 +87,15 @@ This repository contains a variety of Bash scripts to automate repetitive tasks,
    cd bash-scripts
    ```
 
-3. Follow the [Usage](#usage) section to run individual scripts.
+3. Make the scripts executable and run them as needed.
 
 ---
 
 ## 🤝 Contributing
 
-Contributions, issues, and feature requests are welcome! Feel free to fork the repository and submit pull requests.
+Contributions, issues, and feature requests are welcome! To contribute:
 
-1. Fork the project.
+1. Fork the repository.
 2. Create your feature branch:
    ```bash
    git checkout -b feature/YourFeatureName
@@ -107,11 +114,12 @@ Contributions, issues, and feature requests are welcome! Feel free to fork the r
 
 ## 📜 License
 
-This repository is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.
+This repository is licensed under the MIT License. See the [LICENSE](./LICENSE) file for more details.
 
 ---
 
 ### 🧑‍💻 Author
+
 Created by [Your Name](https://github.com/yourusername). Feel free to reach out for collaboration or questions!
 
 ---
